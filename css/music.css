@@ -1,0 +1,139 @@
+html{
+	font-size: 20px;
+}
+.nav img{
+
+	background: #000;
+	border-radius: 10%;
+	width: 9.925rem/* 397px */;
+	height: 7.125rem/* 285px */;
+	text-align: center;
+	line-height: 1rem/* 40px */;
+	font-size: .05rem/* 2px */;
+	position: absolute;
+	top: .375rem/* 15px */;
+	left: 6.475rem/* 259px */;
+	animation: run 10s;
+	opacity: 0;
+	display: block;
+}
+@keyframes run{
+	from {
+		opacity: 0.5;
+		display: block;
+	}
+	to {
+		opacity: 0;
+		
+		display: none;
+	}
+}
+.shared{
+	text-align: center;
+	font-family: 'PingFang-SC-Regular';
+}
+.sing{
+	font-size: 0.85rem;
+	color: #1e1e1e;
+	padding-top: 1.0rem;
+}
+.shared .img{
+	width: 14.4rem;
+	height: 14.4rem;
+	margin-top: 1.4rem;
+	border-radius: 50%;
+	border: 0.025rem solid #cccccc;
+}
+li{
+	line-height: 1.1rem;
+}
+.music{
+	width: 1.1rem;
+	height: 1.2rem;
+	margin-left: 2.45rem;
+}
+.love{
+	height: 1.1rem;
+	width: 1.2rem;
+}
+.fre li:nth-child(2){
+	margin-right: 3.4rem;
+}
+.count-music{
+	padding-left: 1.05rem;
+}
+.count-love{
+	padding-left: 1.05rem;
+}
+.fre{
+	font-family: 'SanFranciscoDisplay-Regular';
+	font-size: 0.85rem;
+	margin-top: 1.75rem;
+}
+.total{
+	width: 16.25rem;
+	height: 0.1rem;
+	background-color: #d2d2d2;
+	border-radius:0 .25rem; 
+	margin-top: 1.45rem/* 58px */;
+	margin-left: 1.25rem/* 50px */;
+}
+.had-play{
+	width: 0;
+	height: .25rem/* 10px */;
+	background-color: #1e1e1e; 
+	position: relative;
+}
+.opcity{
+	width: .75rem/* 30px */;
+	height: .75rem/* 30px */;
+	background-color: #1e1e1e;
+	border-radius: 2.5rem/* 100px */;
+	margin: .875rem/* 35px */ 0;
+}				
+.bar{
+	width: 1rem;
+	height: 2.5rem/* 100px */;
+	border-radius: 2.5rem/* 100px */;
+	padding-left: 0;
+	position: absolute;
+	top: -1.15rem;
+	left: 0;
+}
+.pro-time{
+	font-size: .6rem/* 24px */;
+	color: #787878;
+	font-family: 'Poppins-Regular';
+	padding-top: .65rem/* 26px */;
+}
+.pro-time span:nth-child(1){
+	padding-left: 1.25rem/* 50px */;
+}
+.pro-time span:nth-child(2){
+	padding-right: 1.25rem/* 50px */;
+}
+.operate{
+	display: flex;
+	justify-content: center;
+}
+.operate img{
+	width: 2.5rem/* 100px */;
+	height: 2.5rem/* 100px */;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

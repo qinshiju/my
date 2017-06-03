@@ -1,0 +1,78 @@
+/* 本地录音  */
+.sound{
+	margin-left: .8rem/* 32px */;
+	margin-top: 1rem/* 40px */;
+}
+.sound li{
+	display: flex;
+	width: 17.225rem/* 689px */;
+	height: 3.125rem/* 125px */;
+	border-bottom: .025rem solid #e1e2e3;
+	font-size: .8rem/* 32px */;
+	position: relative;
+	overflow: hidden;
+}
+.sound li .song-singer{
+	font-family: 'PingFang-SC-Regular';
+	display: inline-block;
+	width: 14rem;
+}
+.sound li{
+	margin-top: .6rem/* 24px */;
+}
+.sound li:nth-child(1){
+	margin-top: 0;
+}
+.song{
+	font-size: .8rem/* 32px */;
+	
+	color: #1e1e1e;
+}
+.singer{
+	font-size: .65rem/* 26px */;
+	color: #666666;
+	display: block;
+	padding-top: .6rem/* 24px */;
+}
+.shar-del{
+	font-size: .75rem/* 30px */;
+	font-family: 'PingFang-SC-Regular';
+	color: #1e1e1e;
+	margin-top: .35rem;
+}
+.share{
+	display: block;
+	width: 3rem/* 120px */;
+	height: 1.625rem/* 65px */;
+	border: .025rem solid #e1e2e3;
+	border-radius: .8rem/* 32px */;
+	text-align: center;
+	line-height: 1.625rem/* 65px */;
+}
+.delete{
+	display: block;
+	width: 3rem/* 120px */;
+	height: 1.625rem/* 65px */;
+	border: .025rem solid #e1e2e3;
+	border-radius: .8rem/* 32px */;
+	text-align: center;
+	line-height: 1.625rem/* 65px */;
+}
+.my-look{
+	width: 3.475rem;
+	height:3.2rem;
+	text-align: center;
+	font-size: 0.7rem;
+	font-family: 'PingFang-SC-Regular';
+	line-height: 3.2rem;
+	margin-right: -3.475rem;
+}
+.my-look input{
+	font-size: 0.75rem;
+}
+.size{
+	font-size: 0.4rem;
+}
+.sound .shar{
+	padding-top: 0.25rem;
+}
